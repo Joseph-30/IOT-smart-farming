@@ -20,7 +20,7 @@ Simulates sensor data for moisture, humidity, and light intensity.
 Data sources are sliders in Simulink.
 ### Algorithm Module:
 
-Processes sensor inputs using >= or <= logic blocks.
+Processes sensor inputs using  logical blocks.
 Outputs decisions (e.g., turn ON/OFF actuators).
 ### Actuator and Visualization:
 
@@ -147,4 +147,4 @@ Your IoT Smart Farming system has a range of practical applications:
 
 # 7.Conclusion
 
-This IoT Smart Farming simulation demonstrates the potential for automated plant care using Arduino and cloud platforms like ThingSpeak. It provides a scalable solution for real-world farming automation.The system was designed and simulated using MATLAB and Simulink, with significant inspiration and components adapted from a MathWorks example model on the sam topic.
+This IoT Smart Farming simulation demonstrates the potential for automated plant care using Arduino and cloud platforms like ThingSpeak. It provides a scalable solution for real-world farming automation.The system was designed and simulated using MATLAB and Simulink, with significant inspiration and components adapted from a MathWorks example model on the same topic.
