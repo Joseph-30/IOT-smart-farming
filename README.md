@@ -80,7 +80,7 @@ The algorithm block processes input sensor data and compares it with predefined 
 The Simulink model for the intelligent plant watering system is located in the **SimulinkModel** folder. 
 
 #### Model File
-- **File**: [plant_watering_model.slx](../SimulinkModel/plant_watering_model.slx)
+- **File**: [IOT_smart_farming.slx](simulink/IOT_smart_farming.slx)
 
 #### How to Use the Model:
 1. **Download or Clone** this repository to your local machine.
