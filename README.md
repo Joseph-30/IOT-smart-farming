@@ -71,7 +71,34 @@ The algorithm block processes input sensor data and compares it with predefined 
 
 <img src="simulink%20images/Algorithm.png" width="500" alt="Example Image">
 
-### Sub-subheading (Subsection 1.1.1)
+# 4. Steps for Simulation
 
-This is a sub-sub-section under Subsection 1.1.
+## Step 1: Initialize Simulink Model
+- Open the provided **Simulink model** and configure the sliders for sensor simulation.
+### Simulink Model
+
+The Simulink model for the intelligent plant watering system is located in the **SimulinkModel** folder. 
+
+#### Model File
+- **File**: [plant_watering_model.slx](../SimulinkModel/plant_watering_model.slx)
+
+#### How to Use the Model:
+1. **Download or Clone** this repository to your local machine.
+2. Open the **plant_watering_model.slx** file in **Simulink** (MATLAB).
+3. Configure any sliders or input parameters as needed for simulation.
+4. Run the model to simulate the intelligent plant watering system.
+
+## Step 2: Define Thresholds
+- Set desired values for **moisture**, **light intensity**, and **humidity thresholds** using the sliders.
+
+## Step 3: Connect ThingSpeak
+- Ensure the **ThingSpeak Write blocks** are configured with the correct **Channel ID** and **API keys**.
+
+## Step 4: Run the Simulation
+- Click **Run** to start the simulation.
+- Observe the system's behavior in **Simulink** and **ThingSpeak**.
+
+## Step 5: Analyze Outputs
+- Check the **actuator responses** (pump and light) and verify **ThingSpeak charts** for visualization.
+
 this is taken from matlab projects
