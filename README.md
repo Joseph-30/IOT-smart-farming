@@ -100,5 +100,37 @@ The Simulink model for the intelligent plant watering system is located in the *
 
 ## Step 5: Analyze Outputs
 - Check the **actuator responses** (pump and light) and verify **ThingSpeak charts** for visualization.
+# 5.ThingSpeak Output
+
+ThingSpeak is used to visualize real-time data from the system.
+
+## Setup
+
+1. **Create a ThingSpeak Channel** with two fields:
+    - **Field 1**: Water pump status
+    - **Field 2**: Light relay status
+
+2. **Get the Channel ID and Write API Key** from your ThingSpeak channel after creation.
+
+3. **Add the API Keys and Channel ID to Simulink Write blocks** for proper connectivity:
+    - Use the **ThingSpeak Write** blocks in Simulink to send data to ThingSpeak.
+    - Configure the **Field 1** for Water pump status and **Field 2** for Light relay status.
+
+## ThingSpeak Output Example:
+
+- Once the system is running, ThingSpeak will display the real-time data like this:
+
+    ```
+    Field 1: 1 (Water Pump ON)
+    Field 2: 0 (Light OFF)
+    ```
+
+    Values will update automatically based on the status sent from Simulink.
+  ## ThingSpeak Output Visualization
+
+Below is an example of how the real-time data visualization might look on the ThingSpeak dashboard:
+
+![ThingSpeak Dashboard Example](simulink/Thinkspeak_out.png)
+
 
 this is taken from matlab projects
