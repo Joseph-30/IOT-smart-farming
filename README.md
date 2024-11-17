@@ -59,10 +59,16 @@ Simulink Model Overview:
   - **Field 1**: Water pump status.
   - **Field 2**: Light relay status.
 
-## Subheading (Subsection 1.1)
+# 3. Algorithm Block Description
 
-This is a how algorithm looks like
-![smart1](simulink%20images/Algorithm.png)
+The algorithm block processes input sensor data and compares it with predefined thresholds. The logic includes:
+
+- If **moisture < threshold**, the **water pump** is turned **ON**.
+- If **light intensity < threshold**, the **light relay** is activated.
+- Outputs are converted into digital signals and sent to **ThingSpeak** for visualization.
+
+## Algorithm Block Diagram:
+
 <img src="simulink%20images/Algorithm.png" width="500" alt="Example Image">
 
 ### Sub-subheading (Subsection 1.1.1)
