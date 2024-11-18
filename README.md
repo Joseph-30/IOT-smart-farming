@@ -133,7 +133,7 @@ Below is an example of how the real-time data visualization might look on the Th
 ![ThingSpeak Dashboard Example](simulink/Thinkspeak_out.png)
 # 6. Real-World Applications
 
-Your IoT Smart Farming system has a range of practical applications:
+The IoT Smart Farming system has a range of practical applications:
 
 ## 1. Precision Agriculture
 - **Automating irrigation and lighting**: This helps to reduce water wastage while ensuring optimal crop growth.
